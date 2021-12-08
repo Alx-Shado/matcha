@@ -1,18 +1,67 @@
+
 h1 {
-     color: #025157; text-align: center; text-size-adjust: 48px; font-family:"Alegreya", serif;
+     color: #025157; text-align: center; font-size: 60px; font-family:"Alegreya", serif; font-weight: 900;
    }
 h4 {
-   text-align-last: center; color: #46484c; font-weight: normal;
-  }
-button{
-    font-size: medium;  color: #fff; background-color: #025157; border-radius: 8px;
-}
-p{
+   text-align-last: center; color: #46484c; font-weight: normal; font-family: 'Slabo 27px', serif; font-size: 20px;
+   }
+
+p {
     text-align: center; color: #8b8b8bcc;
-}
-strong {
-    color: #000000;
-}
+  }
+
 body{
     background-color: #fffbf7;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; font-size: 20px;
+    }
+
+button {
+     background-color: #025157; color: #fffbf7; border:none; border-radius: 0; padding: 1.5rem  2rem; border-bottom-right-radius: 1rem; border-top-right-radius: 1rem;
+       }
+
+input{
+      padding: 1.2rem 2rem; border-top-left-radius: 1rem; border-bottom-left-radius: 1rem;
+     }
+
+header{
+    margin: 40px 400px;
+    border: 40px 20px;
+      }
+
+
+
+main {
+    margin-top: 100px;
+     }
+
+header,nav,div {
+    display: inline-block;
 }
+nav,ul{
+    display: inline-block;
+    list-style: none;
+}
+nav,ul,li {
+    display: inline;
+}
+.header > *{
+    display: inline;
+}
+.header .logo {
+    width: 20%;
+    text-align: left;
+}
+.header .navbar{
+    width: 60%;
+    text-align: center;
+}
+.header .action {
+      width: 20%;
+     text-align: right;
+     font-size: 14px;
+
+            }
+li{
+    margin: 0px 15px;
+  }
