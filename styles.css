@@ -1,67 +1,177 @@
-
-h1 {
-     color: #025157; text-align: center; font-size: 60px; font-family:"Alegreya", serif; font-weight: 900;
-   }
-h4 {
-   text-align-last: center; color: #46484c; font-weight: normal; font-family: 'Slabo 27px', serif; font-size: 20px;
-   }
-
-p {
-    text-align: center; color: #8b8b8bcc;
-  }
-
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     background-color: #fffbf7;
     margin: 0;
     font-family: 'Open Sans', sans-serif; font-size: 20px;
+    text-align: left;
     }
 
+h1 {
+     color: #025157; font-size: 60px; font-family:"Alegreya", serif; font-weight: 900; margin-bottom: 24px;
+   }
+
+h4 {
+   color: #46484c; font-weight: normal; font-family: 'Slabo 27px', serif; font-size: 20px; margin-bottom: 36px;
+   }
+
+p {
+     color: #8b8b8bcc; margin-top: 15px; margin-bottom: 1rem; font-family: 'Open Sans', sans-serif;
+  }
+
+
+
 button {
-     background-color: #025157; color: #fffbf7; border:none; border-radius: 0; padding: 1.5rem  2rem; border-bottom-right-radius: 1rem; border-top-right-radius: 1rem;
+         background-color: #025157;
+         color: #fffbf7;
+         border:none;
+         border-radius: 0;
+         padding: 1.5rem  2rem;
+         border-bottom-right-radius: 1rem;
+         border-top-right-radius: 1rem;
        }
 
 input{
-      padding: 1.2rem 2rem; border-top-left-radius: 1rem; border-bottom-left-radius: 1rem;
+      padding: 1.2rem 2rem; border-top-left-radius: 1rem; border-bottom-left-radius: 1rem; border: 1px solid #b6b6b6;
      }
 
-header{
-    margin: 40px 400px;
-    border: 40px 20px;
-      }
-
-
-
-main {
-    margin-top: 100px;
+.main {
+    margin-top: 280px;
+    text-align: center;
      }
+.main .imagen_propiedades{
+    width: 80%;
+    max-width: 1000px;
+}
+.fixed-header {
+    background-color:#fffbf7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
-header,nav,div {
+.header {
+    margin: 40px  20px 0;
+    font-size: 0;
+    height: 80;
+}
+
+.header > * {
     display: inline-block;
-}
-nav,ul{
-    display: inline-block;
-    list-style: none;
-}
-nav,ul,li {
-    display: inline;
-}
-.header > *{
-    display: inline;
+    font-size: 16px;
+    vertical-align: middle;
 }
 .header .logo {
     width: 20%;
-    text-align: left;
+
 }
-.header .navbar{
+.header .navbar {
     width: 60%;
     text-align: center;
+
+
 }
 .header .action {
-      width: 20%;
+
+     width: 20%;
      text-align: right;
      font-size: 14px;
+     color: #67b54b; font-weight: 600;
+     text-decoration-style: none
 
-            }
-li{
-    margin: 0px 15px;
-  }
+               }
+
+.header .navbar li {
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    margin-left: 15px;
+    color: #025157;
+
+                   }
+.header .action button{
+ color: #ffff; background-color: #67b54b; padding: 12px 14px; border: 0; border-radius: 5px; margin-left: 15px;
+}
+.promo{
+    display: flex;
+    width: 70%;
+    max-width: 70%;
+    margin: 100px auto;
+    align-items: center;
+
+}
+.explanatory-video {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.publish{
+    flex: 1;
+    padding: 10px;
+}
+
+
+
+.publish p {
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 15px 0px 20px;
+    font-weight: 500;
+
+}
+
+.publish h3 {
+    color: #025157;
+    font-size: 40px;
+    font-family:"Alegreya", serif;
+    font-weight: 900;
+    margin: 0px 0px 10;
+    line-height: 48px;
+}
+
+.singup-form p{
+    color: #8b8b8bcc;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+.singup-form{
+    height: 55px;
+}
+
+.singup-form input, button {
+    height: 100%;
+    border-radius: 8PX;
+}
+
+.singup-form  input{
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    max-width: 250px;
+
+
+}
+.singup-form  button{
+    background-color: #025157;
+    color: #fffbf7;
+    padding: 6px 20px;
+    max-width: 250px;
+    height: 126%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -10px;
+}
+
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+
+}
