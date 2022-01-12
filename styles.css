@@ -34,12 +34,15 @@ button {
        }
 
 input{
-      padding: 1.2rem 2rem; border-top-left-radius: 1rem; border-bottom-left-radius: 1rem; border: 1px solid #b6b6b6;
+      padding: 1.2rem 2rem;
+      border-top-left-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+      border: 1px solid #b6b6b6;
      }
 
 .main {
-    margin-top: 280px;
-    text-align: center;
+       margin-top: 280px;
+       text-align: center;
      }
 .main .imagen_propiedades{
     width: 80%;
@@ -92,83 +95,85 @@ input{
     color: #025157;
 
                    }
-.header .action button{
- color: #ffff; background-color: #67b54b; padding: 12px 14px; border: 0; border-radius: 5px; margin-left: 15px;
-}
-.promo{
-    display: flex;
-    width: 70%;
-    max-width: 70%;
-    margin: 100px auto;
-    align-items: center;
-
-}
+.header .action button {
+                       color: #ffff;
+                       background-color: #67b54b;
+                       padding: 12px 14px;
+                       border: 0;
+                       border-radius: 5px;
+                       margin-left: 15px;
+                       }
+.promo {
+        display: flex;
+        width: 70%;
+        max-width: 70%;
+        margin: 100px auto;
+        align-items: center;
+       }
 .explanatory-video {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
-}
+                    display: flex;
+                    flex: 1;
+                    flex-direction: column;
+                    align-items: center;
+                   }
 
-.publish{
-    flex: 1;
-    padding: 10px;
-}
+.publish {
+          flex: 1;
+          padding: 10px;
+         }
 
 
 
 .publish p {
-    color: #343434;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    margin: 15px 0px 20px;
-    font-weight: 500;
-
-}
+            color: #343434;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            margin: 15px 0px 20px;
+            font-weight: 500;
+           }
 
 .publish h3 {
-    color: #025157;
-    font-size: 40px;
-    font-family:"Alegreya", serif;
-    font-weight: 900;
-    margin: 0px 0px 10;
-    line-height: 48px;
-}
+             color: #025157;
+             font-size: 40px;
+             font-family:"Alegreya", serif;
+             font-weight: 900;
+             margin: 0px 0px 10;
+             line-height: 48px;
+            }
 
-.singup-form p{
-    color: #8b8b8bcc;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    margin: 20px;
-    line-height: 1.5;
-}
+.singup-form p {
+                color: #8b8b8bcc;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 16px;
+                margin: 20px;
+                line-height: 1.5;
+               }
 
-.singup-form{
-    height: 55px;
-}
+.singup-form {
+              height: 55px;
+             }
 
 .singup-form input, button {
-    height: 100%;
-    border-radius: 8PX;
-}
+                             height: 100%;
+                             border-radius: 8PX;
+                           }
 
-.singup-form  input{
-    border: 1px solid #b6b6b6;
-    padding: 6px 20px;
-    max-width: 250px;
+.singup-form  input {
+                     border: 1px solid #b6b6b6;
+                     padding: 6px 20px;
+                     max-width: 250px;
+                    }
 
-
-}
-.singup-form  button{
-    background-color: #025157;
-    color: #fffbf7;
-    padding: 6px 20px;
-    max-width: 250px;
-    height: 126%;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    margin-left: -10px;
-}
+.singup-form  button {
+                      background-color: #025157;
+                      color: #fffbf7;
+                      padding: 6px 20px;
+                      max-width: 250px;
+                      height: 126%;
+                      border-top-left-radius: 0;
+                      border-bottom-left-radius: 0;
+                      margin-left: -10px;
+                     }
 
 .explanatory-video img {
     width: 120px;
@@ -239,7 +244,7 @@ input{
 
 .feature-image  {
                     position: relative;
-}
+                }
 
 .feature-image img {
                      width: 200px;
@@ -251,3 +256,163 @@ input{
 .feature-image img:hover {
     left: 0;
 }
+
+@media (max-width:575px) {
+                           .navbar, .action {
+                                              display: none;
+                                            }
+                            .header {
+                                      margin-bottom: 10px;
+                                    }
+                            .main {
+                                    margin-top: 6px;
+                                  }
+                            .main .sing-main { width: 60%;}
+                            .main .imagen_propiedades { width: 100%;}
+                            h1,.how-does-it-work .title,.blog .title {
+                                                                      font-size: 30px;
+                                                                     }
+
+                            .publish .singup-form {width: 50%;}
+                            .promo {
+                                    flex-direction: column;
+                                    width: 90%;
+                                    margin: 0 15%;
+                                    align-items: center;
+                                    justify-self: center;
+                                   }
+                            .explanatory-video > video {
+                                width: 100%;
+                            }
+
+                            .features {
+                                       grid-template:repeat(4, 1fr)/repeat(1, 1fr) ;
+                                       padding: 5% 2.5%;
+                                       margin-left: 0;
+                                       margin-right: 0;
+                                       height: 1320px;
+                                      }
+                            .features .feature-card {
+                                            margin-right: 0;
+                                            margin-left: 0;
+                             }
+                            .feature-image { display: none;}
+
+
+                         }
+                         .card-container {
+                          background-color: #a1d683;
+                          padding: 10% 0;
+                        }
+
+                        .comments{
+                          padding: 0 15px;
+                          align-items: center;
+                        }
+
+                        .comments h1 {
+                          color: #025157;
+                          font-weight: bold;
+                          text-align: left;
+                          font-family: "Alegreya", serif;
+                          font-weight: 900;
+                          font-size: 51px;
+                          line-height: 61px;
+                          letter-spacing: -2px;
+                        }
+
+                        .comments p {
+                          font-size: 18px;
+                          color: #343434;
+                          line-height: 1.5;
+                          margin-bottom: 1rem;
+                        }
+
+                        .comments .btn-beefy {
+                          font-style: normal;
+                          font-weight: 600;
+                          font-size: 14px;
+                          padding-top: 12px;
+                          text-align: center;
+                          color: #fff;
+                          background: #025157;
+                          border-radius: 8px;
+                          height: 45px;
+                          width: 166px;
+                          transition: all .2s ease-in-out;
+                        }
+
+                        .comments .btn-beefy:hover {
+                          background-color: #67b54b;
+                          color: #fff;
+                        }
+
+                        .comments img {
+                          margin: 40px 0;
+                          padding-right: 10px;
+                          width: 50%;
+                        }
+
+                        .success-stories .card-title {
+                          font-style: normal;
+                          font-weight: 600;
+                          font-size: 18px;
+                          line-height: 20px;
+                          color: #025157;
+                      }
+
+                      .success-stories .customer-title {
+                          font-style: normal;
+                          font-weight: 400;
+                          font-size: 23px;
+                          line-height: 30px;
+                          color: #000;
+                          margin-bottom: 20px;
+                      }
+
+                      .success-stories .card-results-wrapper {
+                          display: flex;
+                      }
+
+                      .success-stories .card-results-wrapper .card-results-icon {
+                          flex: 1;
+                      }
+
+                      .success-stories .card-results-wrapper .card-results-text {
+                          flex: 3;
+                      }
+
+                      .customer-cs-btn {
+                          background: #025157;
+                          border-radius: 5px;
+                          font-style: normal;
+                          font-weight: 600;
+                          line-height: normal;
+                          font-size: 13px;
+                          text-align: center;
+                          color: #fff;
+                          padding-top: 12px;
+                          padding-bottom: 12px;
+                          padding-left: 20px;
+                          padding-right: 20px;
+                      }
+.card-logo-circle {
+  position: absolute;
+  top: 260px;
+  right: 20px;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #f9da73;
+}
+
+.card-logo-circle img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 76%;
+  width: 100%;
+}
+
